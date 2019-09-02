@@ -1,8 +1,7 @@
 
 
 # This function is a variation on the scatteredInterpolate function in Matlab
-# Its use is for Octave followers of www.udemy.com/master-matlab-through-guided-problem-solving/learn/lecture/10247376 
-# and only guaranteed to work for the accompanying code of Mike X Cohen, but it should work for all similar defined problems
+# it is only guaranteed to work for the accompanying code of Mike X Cohen, but it should work for all similar defined problems
 #
 # Multivariate interpolation a.k.a. spacial interpolation is interpolation on functions of more then one variable
 # The function to be interpolated is known at given points f(x_{i},y_{i},z_{i}) and 

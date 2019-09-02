@@ -15,7 +15,7 @@
 #
 # Algorithm: 
 #            This nearest neighbor interpolation works on taking the median of an 8 number vector
-#            the vector consists of the eight closest neighbours of the MatriM indeM (i,j) that needs to be interpolated
+#            the vector consists of the eight closest neighbours of the Matrix index (i,j) that needs to be interpolated
 #            the algorithm divides the matrix in 9 distinct areas in order to pick the closest neighbour
 #            1 - upper left corner
 #            2 - upper right corner

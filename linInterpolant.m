@@ -70,7 +70,7 @@ function zi = linInterpolant(x,y,z,xi,yi)
   # only keep the triangulated data for the points in xi and yi
   tri = tri(tri_list,:);
   
-  # the zscores of the three points that make up the triangle where the missing point is to be found
+  # the z values of the three points that make up the triangle where the missing point is to be found
   z1 = z(tri(:,1));
   z2 = z(tri(:,2));
   z3 = z(tri(:,3));

@@ -14,9 +14,12 @@
 ## zi -> vector of interpolated values.
 ##
 ## Background information
-## This function is build as alternative to Matlab's scatterInterpolant function for use with https://www.udemy.com/master-matlab-through-guided-problem-solving.
-## Comparable functions in Octave return a mesh, Matlab's function generates an "interpolant" and applies that to query points which results defacto into a vector and not a mesh
-## Similar behaviour is, as far as I am aware off, not possible in Octace, as this would require a higher order function that creates a partially parameterised function in return
+## This function is build as alternative to Matlab's scatterInterpolant function
+## for use with https://www.udemy.com/master-matlab-through-guided-problem-solving.
+## Comparable functions in Octave return a mesh 
+## Matlab's function generates an "interpolant" and applies that to query points which results defacto into a vector and not a mesh
+## Similar behaviour is, as far as I am aware off, not possible in Octace.
+## This would require a higher order function that creates a partially parameterised function in return
 ## 
 ## Author L M Sandt
 ## https://github.com/lausandt/Octave-functions       
